@@ -1,4 +1,4 @@
-const Swal = require('sweetalert2');
+permissions-policy: interest-cohort=()
 var scene = document.getElementById('scene');
 console.log(scene);
 var parallaxInstance = new Parallax(scene);
@@ -6,7 +6,7 @@ console.log(parallaxInstance);
 
 document.getElementById('btnAlert').addEventListener('click', function(){
     Swal.fire({
-        title: 'Gracias por la mejor clase de todas, Ing. Alex Moncada',
+        title: 'Gracias por la mejor clase, Ing. Alex Moncada',
         width: 600,
         padding: '3em',
         color: '#716add',
