@@ -1,4 +1,4 @@
-Permissions-Policy: interest-cohort=false
+permissions-policy: interest-cohort=()
 var scene = document.getElementById('scene');
 console.log(scene);
 var parallaxInstance = new Parallax(scene);
