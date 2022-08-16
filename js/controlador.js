@@ -1,4 +1,4 @@
-permissions-policy: interest-cohort=()
+const Swal = require('sweetalert2');
 var scene = document.getElementById('scene');
 console.log(scene);
 var parallaxInstance = new Parallax(scene);
